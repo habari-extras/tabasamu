@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TABASAMU>
+
+<smilies>
+	<info>
+		<name>Phoenity Smilies</name>
+		<author>Matt Read</author>
+		<description>Phoenity smilies for Habari</description>
+		<version>1.0</version>
+	</info>
+	
+	<smiley alt="hahahah" height="" width="">
+		<text>:)</text>
+		<image>laugh.png</image>
+	</smiley>
+	
+	<smiley><text> :D</text><image>laugh.png</image></smiley>
+	<smiley><text> :-D</text><image>laugh.png</image></smiley>
+	<smiley><text>:grin:</text><image>laugh.png</image></smiley>
+	<smiley><text> :)</text><image>smile.png</image></smiley>
+	<smiley><text> :-)</text><image>smile.png</image></smiley>
+	<smiley><text>:smile:</text><image>smile.png</image></smiley>
+	<smiley><text> ^_^</text><image>smile.png</image></smiley>
+	<smiley><text> :(</text><image>sad.png</image></smiley>
+	<smiley><text> :-(</text><image>sad.png</image></smiley>
+	<smiley><text>:sad:</text><image>sad.png</image></smiley>
+	<smiley><text>:-S</text><image>confused.png</image></smiley>
+	<smiley><text>:S</text><image>confused.png</image></smiley>
+	<smiley><text>:-s</text><image>confused.png</image></smiley>
+	<smiley><text>:s</text><image>confused.png</image></smiley>
+	<smiley><text> :o</text><image>surprised.png</image></smiley>
+	<smiley><text> :O</text><image>surprised.png</image></smiley>
+	<smiley><text> :-O</text><image>surprised.png</image></smiley>
+	<smiley><text> :-o</text><image>surprised.png</image></smiley>
+	<smiley><text>:eek:</text><image>eek.png</image></smiley>
+	<smiley><text> 8O</text><image>eek.png</image></smiley>
+	<smiley><text> 8-O</text><image>eek.png</image></smiley>
+	<smiley><text>:shock:</text><image>surprised.png</image></smiley>
+	<smiley><text> :?</text><image>confused.png</image></smiley>
+	<smiley><text> :-?</text><image>confused.png</image></smiley>
+	<smiley><text> :???:</text><image>confused.png</image></smiley>
+	<smiley><text> 8)</text><image>cool.png</image></smiley>
+	<smiley><text> 8-)</text><image>cool.png</image></smiley>
+	<smiley><text>:cool:</text><image>cool.png</image></smiley>
+	<smiley><text>:oops:</text><image>redface.png</image></smiley>
+	<smiley><text>:\'(</text><image>cry.png</image></smiley>
+	<smiley><text>:\'-(</text><image>cry.png</image></smiley>
+	<smiley><text>;-(</text><image>cry.png</image></smiley>
+	<smiley><text>;(</text><image>cry.png</image></smiley>
+	<smiley><text>:lol:</text><image>lol.png</image></smiley>
+	<smiley><text> :|</text><image>normal.png</image></smiley>
+	<smiley><text> :-|</text><image>normal.png</image></smiley>
+	<smiley><text>:neutral:</text><image>normal.png</image></smiley>
+	<smiley><text> :x</text><image>angry.png</image></smiley>
+	<smiley><text> :-x</text><image>angry.png</image></smiley>
+	<smiley><text>:mad:</text><image>angry.png</image></smiley>
+	<smiley><text> :P</text><image>razz.png</image></smiley>
+	<smiley><text> :-P</text><image>razz.png</image></smiley>
+	<smiley><text>:razz:</text><image>razz.png</image></smiley>
+	<smiley><text>:wink:</text><image>wink.png</image></smiley>
+	<smiley><text> ;)</text><image>wink.png</image></smiley>
+	<smiley><text>:mrgreen:</text><image>mrgreen.png</image></smiley>
+	<smiley><text> ;-)</text><image>wink.png</image></smiley>
+	<smiley><text> :dizzy:</text><image>dizzy.png</image></smiley>
+	<smiley><text> :roll:</text><image>rolleyes.png</image></smiley>
+	<smiley><text> :arrow:</text><image>arrow.png</image></smiley>
+	<smiley><text> :idea:</text><image>idea.png</image></smiley>
+	<smiley><text> :?:</text><image>question.png</image></smiley>
+	<smiley><text> :!:</text><image>exclam.png</image></smiley>
+	<smiley><text> :evil:</text><image>evil.png</image></smiley>
+	<smiley><text> (6)</text><image>evil.png</image></smiley>
+	<smiley><text> 0==(D)</text><image>alien.png</image></smiley>
+</smilies>

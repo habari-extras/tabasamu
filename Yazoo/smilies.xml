@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TABASAMU>
+
+<smilies>
+	<info>
+		<name>Yazoo Smilies</name>
+		<author>Matt Read</author>
+		<description>Yazoo smilies for Habari</description>
+		<version>1.0</version>
+	</info>
+	
+	<smiley><text> :D</text><image>laugh.png</image></smiley>
+	<smiley><text> :D</text><image>big_smile.png</image></smiley>
+	<smiley><text> :-D</text><image>big_smile.png</image></smiley>
+	<smiley><text>:grin:</text><image>big_smile.png</image></smiley>
+	<smiley><text> :)</text><image>smile.png</image></smiley>
+	<smiley><text> :-)</text><image>smile.png</image></smiley>
+	<smiley><text>:smile:</text><image>smile.png</image></smiley>
+	<smiley><text> :(</text><image>sad.png</image></smiley>
+	<smiley><text> :-(</text><image>sad.png</image></smiley>
+	<smiley><text>:sad:</text><image>sad.png</image></smiley>
+	<smiley><text> :o</text><image>ooooh.png</image></smiley>
+	<smiley><text> :-o</text><image>ooooh.png</image></smiley>
+	<smiley><text>:eek:</text><image>ooooh.png</image></smiley>
+	<smiley><text> 8O</text><image>ooooh.png</image></smiley>
+	<smiley><text> 8-O</text><image>ooooh.png</image></smiley>
+	<smiley><text>:shock:</text><image>ooooh.png</image></smiley>
+	<smiley><text> :?</text><image>confused.png</image></smiley>
+	<smiley><text> :-?</text><image>confused.png</image></smiley>
+	<smiley><text> :???:</text><image>confused.png</image></smiley>
+	<smiley><text> 8)</text><image>cool.png</image></smiley>
+	<smiley><text> 8-)</text><image>cool.png</image></smiley>
+	<smiley><text>:cool:</text><image>cool.png</image></smiley>
+	<smiley><text>:lol:</text><image>lol.png</image></smiley>
+	<smiley><text> :x</text><image>angry.png</image></smiley>
+	<smiley><text> :-x</text><image>angry.png</image></smiley>
+	<smiley><text>:mad:</text><image>angry.png</image></smiley>
+	<smiley><text> :P</text><image>tongue_out.png</image></smiley>
+	<smiley><text> :-P</text><image>tongue_out.png</image></smiley>
+	<smiley><text>:razz:</text><image>tongue_out.png</image></smiley>
+	<smiley><text>:wink:</text><image>wink.png</image></smiley>
+	<smiley><text> ;)</text><image>wink.png</image></smiley>
+	<smiley><text> ;-)</text><image>wink.png</image></smiley>
+</smilies>
