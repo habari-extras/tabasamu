@@ -102,7 +102,7 @@ class Tabasamu extends Plugin
 	{
 		if ( $plugin_id == $this->plugin_id() ) {
 			$form= new FormUI( 'tabasamu' );
-			$control= $form->add('select', self::OPTION_NAME, 'The active Tabasamu smilies.', Options::get( self::OPTION_NAME ) );
+			$control= $form->add('select', self::OPTION_NAME, 'The active Tabasamu smilies.' );
 			foreach( $this->get_all_packages() as $package_name => $package ) {
 				$control->options[$package_name]= $package->info->name . ' ' . $package->info->version;
 			}
