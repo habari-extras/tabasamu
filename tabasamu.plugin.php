@@ -10,15 +10,15 @@ require_once 'tabasamuformat.php';
 
 class Tabasamu extends Plugin
 {
-	const VERSION= '0.7';
-	const OPTION_NAME= 'tabasamu:package';
+	const VERSION= '0.8';
+	const OPTION_NAME= 'tabasamu__package';
 	const PACKAGE_FILE= 'smilies.xml';
 	const DEFAULT_PACKAGE= 'phoenity';
-	
+
 	private $package;
 	private $search= array();
 	private $replace= array();
-	
+
 	/**
 	 * Returns information about this plugin
 	 *
@@ -36,7 +36,7 @@ class Tabasamu extends Plugin
 			'license' => 'Apache License 2.0',
 		);
 	}
-	
+
 	/**
 	 * Set the default packages on plugin activation.
 	 */
@@ -48,7 +48,7 @@ class Tabasamu extends Plugin
 			}
 		}
 	}
-	
+
 	/**
 	 * Apply the default Formatters on init.
 	 */
@@ -57,7 +57,7 @@ class Tabasamu extends Plugin
 		Format::apply( 'tabasamu', 'post_content_out' );
 		Format::apply( 'tabasamu', 'comment_content_out' );
 	}
-	
+
 	/**
 	 * Loads the Tabasamu package into memory and builds the
 	 * search/replacement arrays for smiley replacements.
@@ -75,7 +75,7 @@ class Tabasamu extends Plugin
 			}
 		}
 	}
-	
+
 	/**
 	 * Replaces text smilies with image counterpart.
 	 */
@@ -94,7 +94,7 @@ class Tabasamu extends Plugin
 		}
 		return $out;
 	}
-	
+
 	/**
 	 * Outputs the options form on the plugin page.
 	 */
@@ -102,16 +102,16 @@ class Tabasamu extends Plugin
 	{
 		if ( $plugin_id == $this->plugin_id() ) {
 			$form= new FormUI( 'tabasamu' );
-			$control= $form->add('select', self::OPTION_NAME, 'The active Tabasamu smilies.' );
+			$control= $form->append('select', 'control', self::OPTION_NAME, _t( 'The active Tabasamu smilies.' ) );
 			foreach( $this->get_all_packages() as $package_name => $package ) {
 				$control->options[$package_name]= $package->info->name . ' ' . $package->info->version;
 			}
-			$control->set_storage( self::OPTION_NAME );
-			$control->add_validator( array('FormControl', 'validate_required') );
+			$control->add_validator( 'validate_required' );
+			$form->append( 'submit', 'save', _t( 'Save' ) );
 			$form->out();
 		}
 	}
-	
+
 	/**
 	 * Outputs the "configure" button on the plugin page.
 	 */
@@ -121,7 +121,7 @@ class Tabasamu extends Plugin
 		}
 		return $actions;
 	}
-	
+
 	/**
 	 * get the url to the smilies folder for given package name.
 	 *
@@ -131,7 +131,7 @@ class Tabasamu extends Plugin
 	{
 		return $this->get_url() . '/' . $package_name;
 	}
-	
+
 	/**
 	 * get the absolute path to the smilies folder for given package name.
 	 *
@@ -141,7 +141,7 @@ class Tabasamu extends Plugin
 	{
 		return dirname( $this->get_file() ) . '/' . $package_name;
 	}
-	
+
 	/**
 	 * Gets an array of all tabasamu packages that are available.
 	 *
@@ -156,7 +156,7 @@ class Tabasamu extends Plugin
 		}
 		return $packages;
 	}
-	
+
 	/**
 	 * Returns an html img tag for the given smiley / image. Attributes
 	 * from the smilies config file are merged with the defaults. To set,
@@ -181,6 +181,7 @@ class Tabasamu extends Plugin
 		}
 		return ' <img ' . implode( ' ', $atts ) . ' /> ';
 	}
+
 }
 
 ?>
