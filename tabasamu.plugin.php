@@ -38,6 +38,14 @@ class Tabasamu extends Plugin
 	}
 
 	/**
+	 * Add update beacon support
+	 **/
+	public function action_update_check()
+	{
+	 	Update::add( 'Tabasamu', '2a236020-7475-11dd-ad8b-0800200c9a66', $this->info->version );
+	}
+
+	/**
 	 * Set the default packages on plugin activation.
 	 */
 	public function action_plugin_activation( $file )
