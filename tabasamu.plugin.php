@@ -10,14 +10,14 @@ require_once 'tabasamuformat.php';
 
 class Tabasamu extends Plugin
 {
-	const VERSION= '0.8';
-	const OPTION_NAME= 'tabasamu__package';
-	const PACKAGE_FILE= 'smilies.xml';
-	const DEFAULT_PACKAGE= 'phoenity';
+	const VERSION = '0.8';
+	const OPTION_NAME = 'tabasamu__package';
+	const PACKAGE_FILE = 'smilies.xml';
+	const DEFAULT_PACKAGE = 'phoenity';
 
 	private $package;
-	private $search= array();
-	private $replace= array();
+	private $search = array();
+	private $replace = array();
 
 	/**
 	 * Returns information about this plugin
@@ -73,10 +73,10 @@ class Tabasamu extends Plugin
 	 */
 	private function load_smilies()
 	{
-		$package_name= Options::get( self::OPTION_NAME );
-		$config_file= $this->get_path( $package_name ) . '/' . self::PACKAGE_FILE;
+		$package_name = Options::get( self::OPTION_NAME );
+		$config_file = $this->get_path( $package_name ) . '/' . self::PACKAGE_FILE;
 		if ( file_exists( $config_file ) ) {
-			$this->package= simplexml_load_file( $config_file );
+			$this->package = simplexml_load_file( $config_file );
 			foreach( $this->package->smiley as $smiley ) {
 				$this->search[]= strval( $smiley->text );
 				$this->replace[]= $this->img( $smiley, $package_name );
@@ -92,11 +92,11 @@ class Tabasamu extends Plugin
 		if ( ( ! $this->search ) || ( ! $this->replace ) ) {
 			$this->load_smilies();
 		}
-		$out= '';
-		$texts= preg_split( "/(<.*>)/U", $content, -1, PREG_SPLIT_DELIM_CAPTURE );
+		$out = '';
+		$texts = preg_split( "/(<.*>)/U", $content, -1, PREG_SPLIT_DELIM_CAPTURE );
 		foreach ( $texts as $text ) {
 			if ( ( strlen($text) > 0 ) && ( $text{0} != '<' ) ) {
-				$text= str_replace( $this->search, $this->replace, $text );
+				$text = str_replace( $this->search, $this->replace, $text );
 			}
 			$out.= $text;
 		}
@@ -109,8 +109,8 @@ class Tabasamu extends Plugin
 	public function action_plugin_ui( $plugin_id, $action )
 	{
 		if ( $plugin_id == $this->plugin_id() ) {
-			$form= new FormUI( 'tabasamu' );
-			$control= $form->append('select', 'control', self::OPTION_NAME, _t( 'The active Tabasamu smilies.' ) );
+			$form = new FormUI( 'tabasamu' );
+			$control = $form->append('select', 'control', self::OPTION_NAME, _t( 'The active Tabasamu smilies.' ) );
 			foreach( $this->get_all_packages() as $package_name => $package ) {
 				$control->options[$package_name]= $package->info->name . ' ' . $package->info->version;
 			}
@@ -135,7 +135,7 @@ class Tabasamu extends Plugin
 	 *
 	 * @param string $package_name the smilies package name
 	 */
-	private function get_smiley_url( $package_name= NULL )
+	private function get_smiley_url( $package_name = NULL )
 	{
 		return $this->get_url() . '/' . $package_name;
 	}
@@ -145,7 +145,7 @@ class Tabasamu extends Plugin
 	 *
 	 * @param string $package_name the smilies package name
 	 */
-	private function get_path( $package_name= NULL )
+	private function get_path( $package_name = NULL )
 	{
 		return dirname( $this->get_file() ) . '/' . $package_name;
 	}
@@ -157,9 +157,9 @@ class Tabasamu extends Plugin
 	 **/
 	public function get_all_packages()
 	{
-		$packages= array();
+		$packages = array();
 		foreach ( glob( $this->get_path() . '*/' . self::PACKAGE_FILE ) as $file ) {
-			$package_name= basename( dirname( $file ) );
+			$package_name = basename( dirname( $file ) );
 			$packages[$package_name]= simplexml_load_file( $file );
 		}
 		return $packages;
@@ -175,14 +175,14 @@ class Tabasamu extends Plugin
 	 */
 	private function img( $smiley, $package_name )
 	{
-		$url= $this->get_smiley_url( $package_name );
-		$atts= array(
+		$url = $this->get_smiley_url( $package_name );
+		$atts = array(
 			'class' => 'habari-smiley',
 			'alt' => $smiley->text,
 			'src' => $url . '/' . $smiley->image,
 			);
-		if ( $custom_atts= (array) $smiley->attributes() ) {
-			$atts= array_merge( $atts, $custom_atts['@attributes'] );
+		if ( $custom_atts = (array) $smiley->attributes() ) {
+			$atts = array_merge( $atts, $custom_atts['@attributes'] );
 		}
 		foreach ( $atts as $k => $v ) {
 			$atts[$k]= sprintf( "%s=\"%s\"", $k, htmlentities( trim( strval($v) ) ) );
