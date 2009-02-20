@@ -1,0 +1,9 @@
+<plugin>
+	<name>Tabasamu</name>
+	<url>http://drunkenmonkey.org/projects/tabasamu</url>
+	<author>Drunken Monkey Labs</author>
+	<authorurl>http://drunkenmonkey.org</authorurl>
+	<description>Selectable smilies for Habari.</description>
+	<license>Apache License 2.0</license>
+</plugin>
+
