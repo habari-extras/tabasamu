@@ -19,23 +19,7 @@ class Tabasamu extends Plugin
 	private $search = array();
 	private $replace = array();
 
-	/**
-	 * Returns information about this plugin
-	 *
-	 * @return array Plugin info array
-	 **/
-	public function info()
-	{
-		return array (
-			'name' => 'Tabasamu',
-			'url' => 'http://drunkenmonkey.org/projects/tabasamu',
-			'author' => 'Drunken Monkey Labs',
-			'authorurl' => 'http://drunkenmonkey.org',
-			'version' => self::VERSION,
-			'description' => 'Selectable smilies for Habari.',
-			'license' => 'Apache License 2.0',
-		);
-	}
+	
 
 	/**
 	 * Add update beacon support
