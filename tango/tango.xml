@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TABASAMU>
+
+<smilies>
+	<info>
+		<name>Tango Smilies</name>
+		<author>Matt Read</author>
+		<description>Tango smilies for Habari based on http://tango.freedesktop.org/Tango_Icon_Library</description>
+		<version>1.0</version>
+	</info>
+
+	<smiley alt="hahahah" height="" width="">
+		<text>:)</text>
+		<image>face-smile.png</image>
+	</smiley>
+
+	<smiley><text> :D</text><image>face-smile-big.png</image></smiley>
+	<smiley><text> :-D</text><image>face-smile-big.png</image></smiley>
+	<smiley><text>:grin:</text><image>face-smile-big.png</image></smiley>
+	<smiley><text> :)</text><image>face-smile.png</image></smiley>
+	<smiley><text> :-)</text><image>face-smile.png</image></smiley>
+	<smiley><text>:smile:</text><image>face-smile.png</image></smiley>
+	<smiley><text> ^_^</text><image>face-smile.png</image></smiley>
+	<smiley><text> :(</text><image>face-sad.png</image></smiley>
+	<smiley><text> :-(</text><image>face-sad.png</image></smiley>
+	<smiley><text>:sad:</text><image>face-sad.png</image></smiley>
+	<smiley><text>:-S</text><image>face-plain.png</image></smiley>
+	<smiley><text>:S</text><image>face-plain.png</image></smiley>
+	<smiley><text>:-s</text><image>face-plain.png</image></smiley>
+	<smiley><text>:s</text><image>face-plain.png</image></smiley>
+	<smiley><text> :o</text><image>face-surprise.png</image></smiley>
+	<smiley><text> :O</text><image>face-surprise.png</image></smiley>
+	<smiley><text> :-O</text><image>face-surprise.png</image></smiley>
+	<smiley><text> :-o</text><image>face-surprise.png</image></smiley>
+	<smiley><text>:eek:</text><image>face-surprise.png</image></smiley>
+	<smiley><text> 8O</text><image>face-surprise.png</image></smiley>
+	<smiley><text> 8-O</text><image>face-surprise.png</image></smiley>
+	<smiley><text>:shock:</text><image>face-surprise.png</image></smiley>
+	<smiley><text> :?</text><image>face-plain.png</image></smiley>
+	<smiley><text> :-?</text><image>face-plain.png</image></smiley>
+	<smiley><text> :???:</text><image>face-plain.png</image></smiley>
+	<smiley><text> 8)</text><image>face-glasses.png</image></smiley>
+	<smiley><text> 8-)</text><image>face-glasses.png</image></smiley>
+	<smiley><text>:cool:</text><image>face-glasses.png</image></smiley>
+	<smiley><text>:oops:</text><image>redface.png</image></smiley>
+	<smiley><text>:\'(</text><image>face-sad.png</image></smiley>
+	<smiley><text>:\'-(</text><image>face-sad.png</image></smiley>
+	<smiley><text>;-(</text><image>face-sad.png</image></smiley>
+	<smiley><text>;(</text><image>face-sad.png</image></smiley>
+	<smiley><text>:lol:</text><image>face-grin.png</image></smiley>
+	<smiley><text> :|</text><image>face-plain.png</image></smiley>
+	<smiley><text> :-|</text><image>face-plain.png</image></smiley>
+	<smiley><text>:neutral:</text><image>face-plain.png</image></smiley>
+	<smiley><text> :x</text><image>face-devilish.png</image></smiley>
+	<smiley><text> :-x</text><image>face-devilish.png</image></smiley>
+	<smiley><text>:mad:</text><image>face-devilish.png</image></smiley>
+	<smiley><text> :P</text><image>face-grin.png</image></smiley>
+	<smiley><text> :-P</text><image>face-grin.png</image></smiley>
+	<smiley><text>:razz:</text><image>face-grin.png</image></smiley>
+	<smiley><text>:wink:</text><image>face-wink.png</image></smiley>
+	<smiley><text> ;)</text><image>face-wink.png</image></smiley>
+	<smiley><text> ;-)</text><image>face-wink.png</image></smiley>
+	<smiley><text> :evil:</text><image>face-devilish.png</image></smiley>
+	<smiley><text> (6)</text><image>face-devilish.png</image></smiley>
+	<smiley><text> 0==(D)</text><image>face-monkey.png</image></smiley>
+</smilies>
