@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TABASAMU>
+
+<smilies>
+	<info>
+		<name>Blob Smilies</name>
+		<author>Irma E.</author>
+		<description>http://www.illoluv.com</description>
+		<version>1.0</version>
+	</info>
+	
+	<smiley alt="hahahah">
+		<text> :)</text>
+		<image>smile.gif</image>
+	</smiley>
+	
+	<smiley><text> :D</text><image>grin.gif</image></smiley>
+	<smiley><text> :-D</text><image>grin.gif</image></smiley>
+	<smiley><text>:grin:</text><image>grin.gif</image></smiley>
+	<smiley><text> :)</text><image>smile.gif</image></smiley>
+	<smiley><text> :-)</text><image>smile.gif</image></smiley>
+	<smiley><text>:smile:</text><image>smile.gif</image></smiley>
+	<smiley><text> ^_^</text><image>smile.gif</image></smiley>
+	<smiley><text> :(</text><image>sad.gif</image></smiley>
+	<smiley><text> :-(</text><image>sad.gif</image></smiley>
+	<smiley><text>:sad:</text><image>sad.gif</image></smiley>
+	<smiley><text>:-S</text><image>question.gif</image></smiley>
+	<smiley><text>:S</text><image>question.gif</image></smiley>
+	<smiley><text>:-s</text><image>question.gif</image></smiley>
+	<smiley><text>:s</text><image>question.gif</image></smiley>
+	<smiley><text> :o</text><image>surprised.gif</image></smiley>
+	<smiley><text> :O</text><image>surprised.gif</image></smiley>
+	<smiley><text> :-O</text><image>surprised.gif</image></smiley>
+	<smiley><text> :-o</text><image>surprised.gif</image></smiley>
+	<smiley><text>:eek:</text><image>eek.gif</image></smiley>
+	<smiley><text> 8O</text><image>eek.gif</image></smiley>
+	<smiley><text> 8-O</text><image>eek.gif</image></smiley>
+	<smiley><text> Oo</text><image>eek.gif</image></smiley>
+	<smiley><text> oO</text><image>eek.gif</image></smiley>
+	<smiley><text>:shock:</text><image>surprised.gif</image></smiley>
+	<smiley><text> :?</text><image>question.gif</image></smiley>
+	<smiley><text> :-?</text><image>question.gif</image></smiley>
+	<smiley><text> :???:</text><image>question.gif</image></smiley>
+	<smiley><text> 8)</text><image>cool.gif</image></smiley>
+	<smiley><text> 8-)</text><image>cool.gif</image></smiley>
+	<smiley><text>:cool:</text><image>cool.gif</image></smiley>
+	<smiley><text>:oops:</text><image>redface.gif</image></smiley>
+	<smiley><text>:\'(</text><image>cry.gif</image></smiley>
+	<smiley><text>:\'-(</text><image>cry.gif</image></smiley>
+	<smiley><text>;-(</text><image>cry.gif</image></smiley>
+	<smiley><text>;(</text><image>cry.gif</image></smiley>
+	<smiley><text>:lol:</text><image>lol.gif</image></smiley>
+	<smiley><text> :|</text><image>whatever.gif</image></smiley>
+	<smiley><text> :-|</text><image>whatever.gif</image></smiley>
+	<smiley><text>:whatever:</text><image>whatever.gif</image></smiley>
+	<smiley><text> :x</text><image>angry.gif</image></smiley>
+	<smiley><text> :-x</text><image>angry.gif</image></smiley>
+	<smiley><text>:mad:</text><image>angry.gif</image></smiley>
+	<smiley><text> :P</text><image>tongue.gif</image></smiley>
+	<smiley><text> :-P</text><image>tongue.gif</image></smiley>
+	<smiley><text>:razz:</text><image>razz.gif</image></smiley>
+	<smiley><text>:wink:</text><image>wink.gif</image></smiley>
+	<smiley><text> ;)</text><image>wink.gif</image></smiley>
+	<smiley><text> ;-)</text><image>wink.gif</image></smiley>
+	<smiley><text>:dizzy:</text><image>dizzy.gif</image></smiley>
+	<smiley><text>:roll:</text><image>rolleyes.gif</image></smiley>
+	<smiley><text>:arrow:</text><image>arrow.gif</image></smiley>
+	<smiley><text>:idea:</text><image>idea.gif</image></smiley>
+	<smiley><text>:evil:</text><image>evil.gif</image></smiley>
+	<smiley><text> (6)</text><image>evil.gif</image></smiley>
+	<smiley><text>:thumbsup:</text><image>thumbsup.gif</image></smiley>
+	<smiley><text>:thumbsdown:</text><image>thumbsdown.gif</image></smiley>
+	<smiley><text>:worship:</text><image>worship.gif</image></smiley>
+	<smiley><text>:nerd:</text><image>nerd.gif</image></smiley>
+	<smiley><text>:check:</text><image>accept.png</image></smiley>
+</smilies>
